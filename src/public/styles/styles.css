@@ -1,0 +1,28 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+
+:root {
+    --conten-bg-color:rgb(59, 59, 59);
+    --main-bg-color: rgb(46, 46, 46);
+    --conten-fnt-color: #fff;
+    --buttons-log-green: rgb(49, 148, 87);
+    --buttons-log-red: rgb(148, 64, 49);
+  }
+
+*{
+    color: var(--conten-fnt-color);
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin:0px;
+}
+
+/*                        Addons                        */
+
+.vertical-center-conten{
+    align-items: center;
+    
+}
+
+.horizontal-center-conten{
+    justify-content: center;
+}
+

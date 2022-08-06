@@ -1,0 +1,59 @@
+/*                        Body                          */
+body{
+    padding:11px;
+    display:flex;
+    align-items:center;
+    background-color: var(--main-bg-color);
+}
+
+/*                      Article                          */
+
+article{
+    height:636px;
+    width:720px;
+    background-color: var(--conten-bg-color);
+}
+
+/*                        Aside                          */
+
+aside{
+    margin-left: 15px;
+    background-color: var(--conten-bg-color);
+    height: 636px;
+    width: 300px
+}
+
+.aside-title{
+    display:flex;
+    margin-top:8px;
+}
+
+.aside-chat-conten{
+    padding:4px;
+    margin:6px;
+    
+}
+
+.chat-box{
+    height: 30px;
+    padding:10px;
+    padding-left:8px;
+    padding-right:16px;
+    margin-bottom:9px;
+    background-color: #6524;
+}
+
+.chat-box-user_name{
+    text-decoration: none;
+    float:left;
+}
+
+.chat-box-close_button{
+    float:right;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    background-color:rgb(206, 69, 27);
+    border-radius: 50%;
+    border-style: none;
+}
